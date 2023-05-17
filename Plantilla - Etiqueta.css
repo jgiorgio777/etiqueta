@@ -1,0 +1,277 @@
+/* Titulo NAV */
+nav {
+    float: left;
+    border: 3px solid black;
+    padding: 1%;
+    background-color: rgb(250, 239, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.titulo-nav {
+    text-align: center;
+    background-color: gold;
+    padding: 2%;
+}
+
+.datos {
+    padding: 10px;
+}
+
+#subarea-e {
+    margin-left: 23%;
+}
+
+/* Casilleros de entrada NFPA */
+input.inputNFPA {
+    width: 4.5vw;
+}
+
+/* Contenedor imagen */
+.imagen {
+    position: relative;
+    display: inline-block;
+    border: 2px solid black;
+    margin-left: 5%;
+}
+
+img {
+    height: 90vh;
+}
+
+/* Texto area */
+#area-output {
+    position: absolute;
+    top: 9%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    width: 64%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.9vw;
+    font-weight: bold;
+    color: black;
+}
+
+/* Texto de subarea */
+#texto-laboratorio {
+    position: absolute;
+    top: 15%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9vw;
+    font-weight: bold;
+    color: black;
+}
+
+#subarea-s {
+    position: absolute;
+    top: 15%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9vw;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+
+/* NFPA */
+#NFPA1,
+#NFPA2,
+#NFPA3,
+#NFPA4 {
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.9vw;
+    font-weight: 800;
+}
+
+
+#NFPA1 {
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    color: white;
+}
+
+#NFPA2 {
+    position: absolute;
+    top: 28%;
+    left: 18.3%;
+    color: white;
+}
+
+#NFPA3 {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+#NFPA4 {
+    position: absolute;
+    top: 50%;
+    left: 18.3%;
+}
+
+#NFPA4 img {
+    width: 3.9vw;
+    height: auto;
+}
+
+/* Sustancia Química */
+#compuestoid-output {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    width: 55%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+
+
+}
+
+#compuestoid-output span {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 1000%;
+    line-height: 1.5;
+    margin: 0 auto;
+
+}
+
+
+
+/* Formula o concentración */
+#formula-output {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    width: 55%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* !borrar */
+    border-top: 2px solid black;
+}
+
+#formula-output span {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 1000%;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+
+/* SGA */
+
+#SGAT {
+    position: absolute;
+    top: 61%;
+    left: 32%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SGA1,
+#SGA2,
+#SGA3,
+#SGA4 {
+    display: inline-block;
+}
+
+#SGA1 img,
+#SGA2 img,
+#SGA3 img,
+#SGA4 img {
+    width: 6.5vw;
+    height: auto;
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Nota */
+#nota {
+    min-height: 2em;
+    /* Altura mínima para dos líneas de texto */
+    width: 100%;
+
+    /* Ancho deseado para el casillero de texto */
+}
+
+#nota-output {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 83%;
+    left: 3%;
+    width: 95%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    /* Cambiado a "flex-start" para justificar a la izquierda */
+    text-align: left;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+#nota-output span {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 1000%;
+    line-height: 1.5;
+    margin: 0;
+    /* Cambiado a "0" para eliminar el margen automático */
+}
+
+
+
+
+
+
+/* !James George */
+#JamesGeorge {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20%;
+    position: absolute;
+    top: 98%;
+    left: 83%;
+    width: 20%;
+    z-index: 1;
+
+}
