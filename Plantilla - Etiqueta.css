@@ -10,6 +10,12 @@ nav {
     font-size: 120%;
 }
 
+@media only screen and (max-width: 767px) {
+    nav {
+        width: 100%;
+    }
+}
+
 .titulo-nav {
     text-align: center;
     background-color: gold;
@@ -43,9 +49,25 @@ div.casilleroSGA {
     margin-left: 5%;
 }
 
+@media only screen and (max-width: 767px) {
+    .imagen {
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+
+
 
 img {
     height: 90vh;
+}
+
+@media only screen and (max-width: 767px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* Texto area */
@@ -65,7 +87,7 @@ img {
 
 @media only screen and (max-width: 767px) {
     #area-output {
-        font-size: 250%;
+        font-size: calc(50vw / 10)
     }
 }
 
@@ -87,7 +109,7 @@ img {
 
 @media only screen and (max-width: 767px) {
     #texto-laboratorio {
-        font-size: 150%;
+        font-size: calc(30vw / 10)
     }
 }
 
@@ -109,7 +131,7 @@ img {
 
 @media only screen and (max-width: 767px) {
     #subarea-s {
-        font-size: 150%;
+        font-size: calc(30vw / 10)
     }
 }
 
@@ -125,13 +147,13 @@ img {
     font-weight: 800;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
     #NFPA1,
     #NFPA2,
     #NFPA3,
     #NFPA4 {
-        font-size: 400%;
+        font-size: calc(100vw / 10)
     }
 }
 
@@ -169,7 +191,7 @@ img {
 @media (max-width: 768px) {
 
     #NFPA4 img {
-        width: 50%;
+        width: 7vw;
         height: auto;
     }
 }
@@ -204,6 +226,14 @@ img {
 
 }
 
+@media only screen and (max-width: 767px) {
+    #compuestoid-output {
+        font-size: calc(20vw / 10)
+    }
+}
+
+
+
 
 
 /* Formula o concentración */
@@ -233,6 +263,12 @@ img {
     font-size: 1000%;
     line-height: 1.5;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+    #formula-output {
+        font-size: calc(25vw / 10)
+    }
 }
 
 
@@ -273,7 +309,7 @@ img {
     #SGA2 img,
     #SGA3 img,
     #SGA4 img {
-        width: 100%;
+        width: 15vw;
         height: auto;
     }
 }
@@ -314,6 +350,12 @@ img {
     line-height: 1.5;
     margin: 0;
     /* Cambiado a "0" para eliminar el margen automático */
+}
+
+@media only screen and (max-width: 767px) {
+    #nota-output {
+        font-size: calc(25vw / 10)
+    }
 }
 
 
