@@ -3,6 +3,7 @@ nav {
     float: left;
     border: 3px solid black;
     padding: 1%;
+    margin-bottom: 5%;
     background-color: rgb(250, 239, 179);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -61,6 +62,13 @@ img {
     color: black;
 }
 
+@media only screen and (max-width: 767px) {
+    #area-output {
+        font-size: 250%;
+    }
+}
+
+
 /* Texto de subarea */
 #texto-laboratorio {
     position: absolute;
@@ -76,6 +84,13 @@ img {
     color: black;
 }
 
+@media only screen and (max-width: 767px) {
+    #texto-laboratorio {
+        font-size: 150%;
+    }
+}
+
+/* Texto de subarea - alternativo */
 #subarea-s {
     position: absolute;
     top: 15%;
@@ -91,6 +106,13 @@ img {
     background-color: white;
 }
 
+@media only screen and (max-width: 767px) {
+    #subarea-s {
+        font-size: 150%;
+    }
+}
+
+
 /* NFPA */
 #NFPA1,
 #NFPA2,
@@ -102,6 +124,15 @@ img {
     font-weight: 800;
 }
 
+@media (max-width: 768px) {
+
+    #NFPA1,
+    #NFPA2,
+    #NFPA3,
+    #NFPA4 {
+        font-size: 400%;
+    }
+}
 
 #NFPA1 {
     position: absolute;
@@ -132,6 +163,14 @@ img {
 #NFPA4 img {
     width: 3.9vw;
     height: auto;
+}
+
+@media (max-width: 768px) {
+
+    #NFPA4 img {
+        width: 50%;
+        height: auto;
+    }
 }
 
 /* Sustancia Química */
@@ -225,6 +264,17 @@ img {
     z-index: 1;
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+
+    #SGA1 img,
+    #SGA2 img,
+    #SGA3 img,
+    #SGA4 img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
