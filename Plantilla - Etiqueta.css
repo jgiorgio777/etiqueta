@@ -282,3 +282,18 @@ img {
     z-index: 1;
 
 }
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+
+    /* Agrega aquí tus reglas de estilo para dispositivos móviles */
+    body {
+        font-size: 14px;
+    }
+
+    /* Otros estilos específicos para dispositivos móviles */
+}
+
+/* Estilos generales */
+/* Agrega aquí tus reglas de estilo generales para todos los dispositivos */
