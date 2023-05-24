@@ -28,6 +28,12 @@ input.inputNFPA {
     width: 4.5vw;
 }
 
+/* Casilleros de entrada SGA */
+div.casilleroSGA {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Contenedor imagen */
 .imagen {
     position: relative;
@@ -133,7 +139,7 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 43%;
     width: 55%;
     height: 30%;
@@ -153,7 +159,7 @@ img {
     max-width: 100%;
     max-height: 100%;
     font-size: 1000%;
-    line-height: 1.5;
+    line-height: 1.1;
     margin: 0 auto;
 
 }
@@ -165,7 +171,7 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 43%;
     width: 55%;
     height: 10%;
@@ -194,12 +200,13 @@ img {
 
 #SGAT {
     position: absolute;
-    top: 61%;
+    top: 58%;
     left: 32%;
     width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #SGA1,
@@ -213,8 +220,8 @@ img {
 #SGA2 img,
 #SGA3 img,
 #SGA4 img {
-    width: 6.5vw;
-    height: auto;
+    width: auto;
+    height: 9.5vw;
     z-index: 1;
     display: block;
     margin: 0 auto;

@@ -92,7 +92,7 @@ function ajustarTamanoLetra1() {
     const contenedor = document.getElementById('compuestoid-output');
     const textoSpan = document.getElementById('compuestoid-output').querySelector('span');
 
-    let fontSize = 370; /* Tamaño de letra inicial más grande */
+    let fontSize = 600; /* Tamaño de letra inicial más grande */
     textoSpan.style.fontSize = fontSize + '%';
 
     while (textoSpan.scrollHeight > contenedor.offsetHeight || textoSpan.scrollWidth > contenedor.offsetWidth) {
@@ -117,7 +117,7 @@ function ajustarTamanoLetra2() {
     const contenedor = document.getElementById('formula-output');
     const textoSpan = document.getElementById('formula-output').querySelector('span');
 
-    let fontSize = 250; /* Tamaño de letra inicial más grande */
+    let fontSize = 400; /* Tamaño de letra inicial más grande */
     textoSpan.style.fontSize = fontSize + '%';
 
     while (textoSpan.scrollHeight > contenedor.offsetHeight || textoSpan.scrollWidth > contenedor.offsetWidth) {
